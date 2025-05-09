@@ -9,8 +9,8 @@ import { NotesEntity } from 'src/_core/entities/notes.entity';
     type: NotesEntity,
   },
   params: {
-    user_id: {
-      field: 'user_id',
+    note_id: {
+      field: 'note_id',
       primary: true,
       type: 'number',
     },
